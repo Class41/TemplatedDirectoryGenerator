@@ -11,7 +11,7 @@
 void executeTemplate(char *sourceFile, char *basePath) {
 
     if (access(sourceFile, F_OK) == -1) {
-        printf("File %s does not exist or cannot be accessed!", sourceFile);
+        printf("File %s does not exist or cannot be accessed!\n", sourceFile);
         return;
     }
 
