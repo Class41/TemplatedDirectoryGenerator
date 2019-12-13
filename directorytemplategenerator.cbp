@@ -5,7 +5,7 @@
 		<Option title="directorytemplategenerator"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\inc\;"/>
+		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/celestial/CLionProjects/directorytemplategenerator"/>
@@ -66,14 +66,17 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/celestial/CLionProjects/directorytemplategenerator/inc/parsetemplate.c">
+			<Option target="directorytemplategenerator"/>
+		</Unit>
+		<Unit filename="/home/celestial/CLionProjects/directorytemplategenerator/inc/parsetemplate.h">
+			<Option target="directorytemplategenerator"/>
+		</Unit>
 		<Unit filename="/home/celestial/CLionProjects/directorytemplategenerator/main.c">
 			<Option target="directorytemplategenerator"/>
 		</Unit>
 		<Unit filename="/home/celestial/CLionProjects/directorytemplategenerator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
-		</Unit>
-		<Unit filename="/home/celestial/CLionProjects/directorytemplategenerator/inc/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\inc\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

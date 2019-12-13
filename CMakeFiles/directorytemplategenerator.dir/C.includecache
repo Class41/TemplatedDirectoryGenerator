@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/celestial/CLionProjects/directorytemplategenerator/inc/parsetemplate.c
-bits/types/FILE.h
+/home/celestial/CLionProjects/directorytemplategenerator/inc/parsetemplate.h
+
+/home/celestial/CLionProjects/directorytemplategenerator/main.c
+stdio.h
+-
+stdlib.h
 -
 unistd.h
 -
-parsetemplate.h
-/home/celestial/CLionProjects/directorytemplategenerator/inc/parsetemplate.h
-stdio.h
-/home/celestial/CLionProjects/directorytemplategenerator/inc/stdio.h
 string.h
 -
-
+inc/parsetemplate.h
 /home/celestial/CLionProjects/directorytemplategenerator/inc/parsetemplate.h
 

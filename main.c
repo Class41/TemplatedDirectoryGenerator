@@ -20,14 +20,21 @@ int main(int argc, char *argv[]) {
                 strcpy(template, optarg);
                 break;
             case 'h':
-                printf("Usage: %s -t \"templatefile\" -p \"path1;path2;...\"\n"
+                printf("Usage: %s -t \"templatefile\" -p \"path\"\n"
                        "-t location of the template file to be used\n"
-                       "-p list of paths to generate the folder structure\n"
+                       "\tTemplate files must use tabs to indiciate folder level, and newline to indicate end of folder.\n\n"
+                       "\tone\n"
+                       "\t\ttwo\n"
+                       "\t\t\tthree\n"
+                       "\t\tfour\n\n"
+                       "\tThis will generate a structure with \"one\" as the root, \"two\" and \"four\" are children of one,\n"
+                       "\tand three is a child of two.\n"
+                       "-p base path to generate the folder structure\n"
                        "-h view this dialogue\n", argv[0]);
                 if (paths != NULL && template != NULL) {
-                    executeTemplate(template);
+                    executeTemplate(template, paths);
                 } else {
-                    printf("-p and -t flags are REQUIRED! For more information, use %s -h", argv[0]);
+                    printf("-p and -t flags are REQUIRED! For more information, use %s -h\n", argv[0]);
                 }
                 exit(0x1);
             case '?':
@@ -39,9 +46,9 @@ int main(int argc, char *argv[]) {
     }
 
     if (paths != NULL && template != NULL) {
-        executeTemplate(template);
+        executeTemplate(template, paths);
     } else {
-        printf("-p and -t flags are REQUIRED! For more information, use %s -h", argv[0]);
+        printf("-p and -t flags are REQUIRED! For more information, use %s -h for more info.\n", argv[0]);
     }
 
     free(template);
