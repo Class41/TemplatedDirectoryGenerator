@@ -8,4 +8,4 @@
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/celestial/CLionProjects/directorytemplategenerator/cmake-build-debug
+-- Build files have been written to: /home/celestial/CLionProjects/directorytemplategenerator

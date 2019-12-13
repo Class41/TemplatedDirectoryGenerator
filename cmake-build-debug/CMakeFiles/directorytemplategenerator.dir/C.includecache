@@ -6,13 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/celestial/CLionProjects/directorytemplategenerator/main.c
-ctype.h
--
-stdio.h
--
-stdlib.h
--
-unistd.h
--
-

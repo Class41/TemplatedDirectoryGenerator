@@ -5,7 +5,7 @@
 		<Option title="directorytemplategenerator"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\inc\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/celestial/CLionProjects/directorytemplategenerator/cmake-build-debug"/>
@@ -83,6 +83,9 @@
 		</Unit>
 		<Unit filename="/home/celestial/CLionProjects/directorytemplategenerator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/celestial/CLionProjects/directorytemplategenerator/inc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\inc\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

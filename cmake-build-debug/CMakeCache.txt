@@ -192,10 +192,10 @@ ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 
 //Value Computed by CMake
-directorytemplategenerator_BINARY_DIR:STATIC=/home/celestial/CLionProjects/directorytemplategenerator/cmake-build-debug
+directorytemplategenerator_BINARY_DIR:STATIC=/home/celestial/CLionProjects/directorytemplategenerator/cmake-build-debug/inc
 
 //Value Computed by CMake
-directorytemplategenerator_SOURCE_DIR:STATIC=/home/celestial/CLionProjects/directorytemplategenerator
+directorytemplategenerator_SOURCE_DIR:STATIC=/home/celestial/CLionProjects/directorytemplategenerator/inc
 
 
 ########################
@@ -286,7 +286,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

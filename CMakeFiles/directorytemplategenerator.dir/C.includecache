@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/celestial/CLionProjects/directorytemplategenerator/inc/parsetemplate.c
+bits/types/FILE.h
+-
+unistd.h
+-
+parsetemplate.h
+/home/celestial/CLionProjects/directorytemplategenerator/inc/parsetemplate.h
+stdio.h
+/home/celestial/CLionProjects/directorytemplategenerator/inc/stdio.h
+
+/home/celestial/CLionProjects/directorytemplategenerator/inc/parsetemplate.h
+

@@ -10,8 +10,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/celestial/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCInformation.cmake"
   "/home/celestial/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "/home/celestial/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCommonLanguageInclude.cmake"
-  "/home/celestial/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/share/cmake-3.15/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
-  "/home/celestial/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/share/cmake-3.15/Modules/CMakeFindCodeBlocks.cmake"
   "/home/celestial/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/share/cmake-3.15/Modules/CMakeGenericSystem.cmake"
   "/home/celestial/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/share/cmake-3.15/Modules/CMakeInitializeConfigs.cmake"
   "/home/celestial/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/share/cmake-3.15/Modules/CMakeLanguageInformation.cmake"
@@ -25,11 +23,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/celestial/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/share/cmake-3.15/Modules/Platform/Linux-GNU.cmake"
   "/home/celestial/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/share/cmake-3.15/Modules/Platform/Linux.cmake"
   "/home/celestial/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/share/cmake-3.15/Modules/Platform/UnixPaths.cmake"
-  "/home/celestial/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/share/cmake-3.15/Modules/ProcessorCount.cmake"
-  "../CMakeLists.txt"
   "CMakeFiles/3.15.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
-  "../inc/CMakeLists.txt"
+  "CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -41,7 +37,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "inc/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

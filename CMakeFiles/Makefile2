@@ -47,25 +47,23 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/celestial/CLionProjects/directorytemplategenerator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/celestial/CLionProjects/directorytemplategenerator/cmake-build-debug
+CMAKE_BINARY_DIR = /home/celestial/CLionProjects/directorytemplategenerator
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 all: CMakeFiles/directorytemplategenerator.dir/all
-all: inc/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/directorytemplategenerator.dir/clean
-clean: inc/clean
 
 .PHONY : clean
 
 # The main recursive "preinstall" target.
-preinstall: inc/preinstall
+preinstall:
 
 .PHONY : preinstall
 
@@ -76,14 +74,14 @@ preinstall: inc/preinstall
 CMakeFiles/directorytemplategenerator.dir/all:
 	$(MAKE) -f CMakeFiles/directorytemplategenerator.dir/build.make CMakeFiles/directorytemplategenerator.dir/depend
 	$(MAKE) -f CMakeFiles/directorytemplategenerator.dir/build.make CMakeFiles/directorytemplategenerator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/celestial/CLionProjects/directorytemplategenerator/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target directorytemplategenerator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/celestial/CLionProjects/directorytemplategenerator/CMakeFiles --progress-num=1,2,3 "Built target directorytemplategenerator"
 .PHONY : CMakeFiles/directorytemplategenerator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/directorytemplategenerator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/celestial/CLionProjects/directorytemplategenerator/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/celestial/CLionProjects/directorytemplategenerator/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/directorytemplategenerator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/celestial/CLionProjects/directorytemplategenerator/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/celestial/CLionProjects/directorytemplategenerator/CMakeFiles 0
 .PHONY : CMakeFiles/directorytemplategenerator.dir/rule
 
 # Convenience name for target.
@@ -95,24 +93,6 @@ directorytemplategenerator: CMakeFiles/directorytemplategenerator.dir/rule
 CMakeFiles/directorytemplategenerator.dir/clean:
 	$(MAKE) -f CMakeFiles/directorytemplategenerator.dir/build.make CMakeFiles/directorytemplategenerator.dir/clean
 .PHONY : CMakeFiles/directorytemplategenerator.dir/clean
-
-#=============================================================================
-# Directory level rules for directory inc
-
-# Recursive "all" directory target.
-inc/all:
-
-.PHONY : inc/all
-
-# Recursive "clean" directory target.
-inc/clean:
-
-.PHONY : inc/clean
-
-# Recursive "preinstall" directory target.
-inc/preinstall:
-
-.PHONY : inc/preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.
